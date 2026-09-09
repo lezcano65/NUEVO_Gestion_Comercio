@@ -9,4 +9,4 @@ class StockCreateAdmin(admin.ModelAdmin):
     list_filter = ['categoria']
     search_fields = ['objeto_nombre', 'cantidad']
 
-admin.sites.site.register(Stock, StockCreateAdmin)
+admin.sites.site.register(Stock, StockCreateAdmin)# primero el Base y segundo parametro el personalizado de arriba
